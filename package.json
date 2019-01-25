@@ -1,0 +1,24 @@
+{
+  "name": "vue-ui-wheel",
+  "version": "1.0.0",
+  "description": "造轮子",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangsiyuan233/Vue-UI-Wheel.git"
+  },
+  "keywords": [
+    "vue",
+    "frame",
+    "ui"
+  ],
+  "author": "wangsiyuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangsiyuan233/Vue-UI-Wheel/issues"
+  },
+  "homepage": "https://github.com/wangsiyuan233/Vue-UI-Wheel#readme"
+}
