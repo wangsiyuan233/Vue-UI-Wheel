@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/wangsiyuan233/Vue-UI-Wheel/issues"
   },
-  "homepage": "https://github.com/wangsiyuan233/Vue-UI-Wheel#readme"
+  "homepage": "https://github.com/wangsiyuan233/Vue-UI-Wheel#readme",
+  "dependencies": {
+    "vue": "^2.5.22"
+  }
 }
