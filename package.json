@@ -23,5 +23,8 @@
   "homepage": "https://github.com/wangsiyuan233/Vue-UI-Wheel#readme",
   "dependencies": {
     "vue": "^2.5.22"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0"
   }
 }
