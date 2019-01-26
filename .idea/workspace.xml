@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="651660b1-10d6-45c4-b33d-bf5f370ef9d8" name="Default Changelist" comment="" />
+    <list default="true" id="651660b1-10d6-45c4-b33d-bf5f370ef9d8" name="Default Changelist" comment="讲button.js 改为 单文件组件，启动方式为 parcel index.html">
+      <change afterPath="$PROJECT_DIR$/.cache/00/c8d8cdcc2679947d50a7a1fc7f68e3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/08/4a4d6006f8b3e58307edbabf9c3652.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/0d/7435e4c4520fffefe678940b4f7767.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/13/70abf27022986f099590d816660ca8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/16/a78fa40b387cdd2d278248ba9a1d56.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/29/40666413ca442e4ff6c2b42ef0c9a5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/2a/582eb361ed84bf875f337d97957599.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/31/b1d362c6ab5d555a4c0845b7d3617f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/60/a001f51ceffb2aee10c87af35df492.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/63/39dfe03f424736f9b5b4a30a0110d5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/68/0bbe6032e4b24cab2ec3ed53a7e10a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/91/b2c6d3f96ed6af771397d0005d2a18.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/96/2794db5df6cdc56d1843d7d3a3fd65.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/99/001c61bea43f06afbd44211e9e13bb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/a0/0a06e6fb5d59787579c378e7dd34c1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/c7/714821689235d621877e551c47af7c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/d8/e8a37dc2461522ce912f380f599641.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/de/0d7ca51373b180653260baaf3aca11.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/e9/026dc15d87c158044bffc8c6306301.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/f4/f5719f51b9e5124de41114982fc4bc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.366089f4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.366089f4.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.72ff2129.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.72ff2129.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.9f431ea5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.a6a4d504.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.a6a4d504.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.a6a4d504.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.e837e082.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.ea1aa960.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.ea1aa960.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,29 +54,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+            <state relative-caret-position="52">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/button.js">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            <state relative-caret-position="414">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+              <folding>
+                <element signature="e#24#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/button.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -47,6 +109,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -56,9 +119,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/button.js" />
+        <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/button.vue" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -93,7 +159,7 @@
             <path>
               <item name="Vue-UI-Wheel" type="b2602c69:ProjectViewProjectNode" />
               <item name="Vue-UI-Wheel" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -105,6 +171,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -131,7 +198,7 @@
       <updated>1548388803147</updated>
       <workItem from="1548388808029" duration="770000" />
       <workItem from="1548389765848" duration="9127000" />
-      <workItem from="1548458324905" duration="1114000" />
+      <workItem from="1548458324905" duration="6608000" />
     </task>
     <task id="LOCAL-00001" summary="npm i vue">
       <created>1548391286808</created>
@@ -151,13 +218,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11011000" />
+    <option name="totallyTimeSpent" value="16505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15806195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15806195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -184,16 +251,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="npm i vue" />
     <MESSAGE value="完成按钮的基本样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成按钮的基本样式" />
+    <MESSAGE value="讲button.js 改为 单文件组件，启动方式为 parcel index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="讲button.js 改为 单文件组件，启动方式为 parcel index.html" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/GoodHexo/hexo/source/_posts/56组件化与 React.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -208,15 +269,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/button.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        <state relative-caret-position="78">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <element signature="e#24#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        <state relative-caret-position="414">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/button.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
