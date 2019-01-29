@@ -5,7 +5,17 @@
 </template>
 
 <script>
-  export default {}
+  export default {
+    // 可以控制一下用户，不要让他们输入奇怪的标签，影响使用，只能用 button 标签
+    mounted() {
+      for(let node of this.$el.children){
+        if (node.nodeName.toLocaleLowerCase() !== 'button'){
+            console.warn('傻了吧，button-group 里面的标签必须是 button')
+        }
+
+      }
+    }
+  }
 </script>
 
 <style lang="scss">
