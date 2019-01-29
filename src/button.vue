@@ -1,10 +1,11 @@
 <!--通过 parcel ，我们知道了 单文件组件-->
 <template>
     <!--:class="{[iconPosition]:true} 控制 icon 在左边还是在右边-->
-    <button :class="{[`icon-${iconPosition}`]:true}" class="g-button">
-        <!-- :name 是变量； name 是字符串-->
-        <g-icon :name="icon" class="icon" v-if="icon"></g-icon>
-        <g-icon class="loading" name="loading"></g-icon>
+    <button :class="{[`icon-${iconPosition}`]:true}" @click="$emit('click')"
+            class="g-button">
+        <!-- :name 是变量，是绑定JS的，是可以改变的； name 是字符串-->
+        <g-icon :name="icon" class="icon" v-if="icon && !loading"></g-icon>
+        <g-icon class="loading icon" name="loading" v-if="loading"></g-icon>
         <div class="content">
             <!-- 神奇的地方：控制台里 “设置”两字 在 slot 的位置-->
             <slot></slot>
@@ -19,6 +20,10 @@
     // 采用下面的写法，默认 icon 在左边
     props:{
       icon:{},
+      loading:{
+        type: Boolean,
+        default: false
+      },
       iconPosition:{
         type: String,
         default: 'left',
@@ -57,9 +62,11 @@
             outline: none;
         }
 
+        /*内部*/
         display: inline-flex;
         justify-content: center;
         align-items: center;
+        /*外部*/
         vertical-align: middle;
 
         /*默认的 icon 位置*/
@@ -81,7 +88,10 @@
 
         /*loading 动画*/
         .loading{
-            animation: spin 3s infinite linear;
+            animation: spin 2s infinite linear;
         }
+
+        /*前进后退 button-group */
+
 
 </style>

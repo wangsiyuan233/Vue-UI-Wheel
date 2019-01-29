@@ -38,9 +38,9 @@
 
 **3、转动起来的小菊花 -- loading**
 
-第一步：iconfont 更新 svg 地址
+第一步：在 iconfont 更新 svg 地址
 第二步： button.vue 里面的样式
-`<g-icon class="loading" name="loading"></g-icon>`
+`<g-icon class="loading" name="loading" v-if="loading"></g-icon>`
 ```
  /*loading 的样式*/
         @keyframes spin {
@@ -53,7 +53,53 @@
             animation: spin 3s infinite linear;
         }
 ```
+第三步：用 `v-if` 控制 `loading` 是否出现  
+ `<g-icon class="loading" name="loading" v-if="loading"></g-icon>`
 
+第四步：其他icon 和 loading 图标不能同时出现
+ `<g-icon :name="icon" class="icon" v-if="icon && !loading"></g-icon>`
 
+第五步：icon 在文字右边的时候，切换出来的 loading 也要在文字右边
+ `<g-icon class="loading icon" name="loading" v-if="loading"></g-icon>`
 
+第六步：点击按钮才出现 `loading` 转动
 
+绑定“点击”这个动作：
+
+`button.vue` :
+ `<button :class="{[`icon-${iconPosition}`]:true}" class="g-button"@click="$emit('click')">`
+
+`app.js` ：
+```
+new Vue({
+    el:'#app',
+    data:{loading1:false}
+})
+```
+
+最后设置一下 `index.html` ：
+ `<g-button :loading="loading1" @click="loading1 = !loading1">设置切换</g-button>`
+
+*但是这样很麻烦啊！！ 这个loading1 只是为单个图标服务的，剩下的 g-button 按钮需要去 app.js 重新设置*
+
+**4、三个按钮（前进 + 更多 + 后退）合并在一起，但是三个按钮 hover 时一定要浮现出四条边框**
+
+创建 button-group.vue（在 app.js 里面 import + 注册）
+
+第一步：装饰一下第一个按钮和第二个按钮
+
+第二步：
+```
+.g-button-group .g-button {
+            border-radius: 0;
+
+		    /*重合部分合并*/
+            margin-left: -1px;
+			/* 要让按钮的四条边框都浮现出来*/
+            &:hover{
+                position: relative;
+                z-index: 1;
+            }
+}
+```
+试了一下，这三个按钮之间没有缝隙是因为在 button-group 组件里面，干掉重合部分就是 ml=-1
