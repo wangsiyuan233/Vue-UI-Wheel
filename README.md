@@ -32,8 +32,28 @@
 ```
 也就是说，在 `index.html` 里面我们一定要设置是好图标是在右边的，剩下的逻辑部分都在 `button.vue` 里面，通过 `svg` 的 `class` 来选择不同的 `order`
 
-2、 发现并排的按钮们在垂直距离上高矮不一
+**2、 发现并排的按钮们在垂直距离上高矮不一**
 
 只有一步： `.g-button{ vertical-align: middle;} `
+
+**3、转动起来的小菊花 -- loading**
+
+第一步：iconfont 更新 svg 地址
+第二步： button.vue 里面的样式
+`<g-icon class="loading" name="loading"></g-icon>`
+```
+ /*loading 的样式*/
+        @keyframes spin {
+            0%{transform: rotate(0deg);}
+            100%{transform: rotate(360deg);}
+        }
+
+ /*loading 动画*/
+        .loading{
+            animation: spin 3s infinite linear;
+        }
+```
+
+
 
 

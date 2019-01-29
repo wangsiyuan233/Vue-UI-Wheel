@@ -2,12 +2,9 @@
 <template>
     <!--:class="{[iconPosition]:true} 控制 icon 在左边还是在右边-->
     <button :class="{[`icon-${iconPosition}`]:true}" class="g-button">
-        <!-- v-if 是用来判断有没有 svg 的，如果没有 svg，字样就是居中的-->
-        <svg class="icon" v-if="icon">
-            <!--第一个 : 是 v-bind 的缩写；反引号表示里面的内容是 js 字符串-->
-            <!--结合 index.html 我们可以知道：用户只用输入 settings ，我们就匹配了 icon-->
-            <use :xlink:href=`#i-${icon}`></use>
-        </svg>
+        <!-- :name 是变量； name 是字符串-->
+        <g-icon :name="icon" class="icon" v-if="icon"></g-icon>
+        <g-icon class="loading" name="loading"></g-icon>
         <div class="content">
             <!-- 神奇的地方：控制台里 “设置”两字 在 slot 的位置-->
             <slot></slot>
@@ -17,7 +14,24 @@
 
 <script>
   export default {
-    props: ['icon', 'iconPosition']
+    // props: ['icon', 'iconPosition']
+    // 上面这种写法会生成 icon-undefined
+    // 采用下面的写法，默认 icon 在左边
+    props:{
+      icon:{},
+      iconPosition:{
+        type: String,
+        default: 'left',
+        // 属性检查器，防止奇怪需求
+        validator(value){
+          if(value !== 'left' && 'right'){
+            return false
+          }else{
+            return true
+          }
+        }
+      }
+    }
   }
 
 </script>
@@ -58,5 +72,16 @@
             > .content{order:1;}
         }
     }
+
+        /*loading 的样式*/
+        @keyframes spin {
+            0%{transform: rotate(0deg);}
+            100%{transform: rotate(360deg);}
+        }
+
+        /*loading 动画*/
+        .loading{
+            animation: spin 3s infinite linear;
+        }
 
 </style>
