@@ -2,20 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="651660b1-10d6-45c4-b33d-bf5f370ef9d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.cache/0d/7435e4c4520fffefe678940b4f7767.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/0d/7435e4c4520fffefe678940b4f7767.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/13/70abf27022986f099590d816660ca8.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/13/70abf27022986f099590d816660ca8.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/31/b1d362c6ab5d555a4c0845b7d3617f.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/31/b1d362c6ab5d555a4c0845b7d3617f.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/91/b2c6d3f96ed6af771397d0005d2a18.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/91/b2c6d3f96ed6af771397d0005d2a18.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/96/2794db5df6cdc56d1843d7d3a3fd65.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/96/2794db5df6cdc56d1843d7d3a3fd65.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/a0/0a06e6fb5d59787579c378e7dd34c1.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/a0/0a06e6fb5d59787579c378e7dd34c1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/d8/e8a37dc2461522ce912f380f599641.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/d8/e8a37dc2461522ce912f380f599641.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/e9/026dc15d87c158044bffc8c6306301.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/e9/026dc15d87c158044bffc8c6306301.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/00/c8d8cdcc2679947d50a7a1fc7f68e3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/08/4a4d6006f8b3e58307edbabf9c3652.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/08/4a4d6006f8b3e58307edbabf9c3652.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/0d/7435e4c4520fffefe678940b4f7767.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/13/70abf27022986f099590d816660ca8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/16/a78fa40b387cdd2d278248ba9a1d56.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/29/40666413ca442e4ff6c2b42ef0c9a5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/2a/582eb361ed84bf875f337d97957599.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/31/b1d362c6ab5d555a4c0845b7d3617f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/60/a001f51ceffb2aee10c87af35df492.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/63/39dfe03f424736f9b5b4a30a0110d5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/68/0bbe6032e4b24cab2ec3ed53a7e10a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/91/b2c6d3f96ed6af771397d0005d2a18.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/96/2794db5df6cdc56d1843d7d3a3fd65.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/99/001c61bea43f06afbd44211e9e13bb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/a0/0a06e6fb5d59787579c378e7dd34c1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/c7/714821689235d621877e551c47af7c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/d8/e8a37dc2461522ce912f380f599641.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/de/0d7ca51373b180653260baaf3aca11.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/e9/026dc15d87c158044bffc8c6306301.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/f4/f5719f51b9e5124de41114982fc4bc.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button-group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button-group.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,14 +48,54 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="115" column="4" selection-start-line="115" selection-start-column="4" selection-end-line="115" selection-end-column="4" />
+            <state relative-caret-position="123">
+              <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
               <folding>
                 <element signature="e#24#45#0" expanded="true" />
+                <element signature="e#316#339#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/karma.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-827">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/button.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2028">
+              <caret line="78" column="2" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
+              <folding>
+                <element signature="e#28#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -52,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-553">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="364">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -61,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/button.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="182">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -103,13 +154,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/button.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/icon.vue" />
-        <option value="$PROJECT_DIR$/src/button.vue" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/button-group.vue" />
         <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/karma.conf.js" />
+        <option value="$PROJECT_DIR$/test/button.test.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/button.vue" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -145,6 +199,11 @@
               <item name="Vue-UI-Wheel" type="b2602c69:ProjectViewProjectNode" />
               <item name="Vue-UI-Wheel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vue-UI-Wheel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vue-UI-Wheel" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,7 +244,8 @@
       <workItem from="1548389765848" duration="9127000" />
       <workItem from="1548458324905" duration="6608000" />
       <workItem from="1548649468771" duration="553000" />
-      <workItem from="1548700162402" duration="15883000" />
+      <workItem from="1548700162402" duration="16651000" />
+      <workItem from="1548788580337" duration="5551000" />
     </task>
     <task id="LOCAL-00001" summary="npm i vue">
       <created>1548391286808</created>
@@ -236,11 +296,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548738173533</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="提交四个测试，第五个(mock)还在完善">
+      <created>1548742266603</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1548742266603</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51786000" />
+    <option name="totallyTimeSpent" value="58105000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -289,7 +356,8 @@
     <MESSAGE value="loading 动起来了" />
     <MESSAGE value="三个按钮（前进 + 更多 + 后退）合并在一起" />
     <MESSAGE value="用 mounted 钩子做判断是不是 button 标签" />
-    <option name="LAST_COMMIT_MESSAGE" value="用 mounted 钩子做判断是不是 button 标签" />
+    <MESSAGE value="提交四个测试，第五个(mock)还在完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交四个测试，第五个(mock)还在完善" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -306,24 +374,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/button.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/icon.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -334,27 +388,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/button.vue">
+    <entry file="file://$PROJECT_DIR$/src/icon.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="130">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-553">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="364">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="115" column="4" selection-start-line="115" selection-start-column="4" selection-end-line="115" selection-end-column="4" />
+        <state relative-caret-position="123">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
           <folding>
             <element signature="e#24#45#0" expanded="true" />
+            <element signature="e#316#339#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-827">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/button.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/button.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2028">
+          <caret line="78" column="2" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
+          <folding>
+            <element signature="e#28#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
         </state>
       </provider>
     </entry>

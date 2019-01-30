@@ -14,7 +14,11 @@
 </template>
 
 <script>
+  import Icon from './icon'
   export default {
+      components:{
+        'g-icon':Icon
+      },
     // props: ['icon', 'iconPosition']
     // 上面这种写法会生成 icon-undefined
     // 采用下面的写法，默认 icon 在左边
