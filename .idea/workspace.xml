@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="651660b1-10d6-45c4-b33d-bf5f370ef9d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.cache/00/c8d8cdcc2679947d50a7a1fc7f68e3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/08/4a4d6006f8b3e58307edbabf9c3652.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/08/4a4d6006f8b3e58307edbabf9c3652.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/0d/7435e4c4520fffefe678940b4f7767.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/13/70abf27022986f099590d816660ca8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/16/a78fa40b387cdd2d278248ba9a1d56.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/29/40666413ca442e4ff6c2b42ef0c9a5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/2a/582eb361ed84bf875f337d97957599.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/31/b1d362c6ab5d555a4c0845b7d3617f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/60/a001f51ceffb2aee10c87af35df492.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/63/39dfe03f424736f9b5b4a30a0110d5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/68/0bbe6032e4b24cab2ec3ed53a7e10a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/91/b2c6d3f96ed6af771397d0005d2a18.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/96/2794db5df6cdc56d1843d7d3a3fd65.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/99/001c61bea43f06afbd44211e9e13bb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/a0/0a06e6fb5d59787579c378e7dd34c1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/c7/714821689235d621877e551c47af7c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/d8/e8a37dc2461522ce912f380f599641.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/de/0d7ca51373b180653260baaf3aca11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/e9/026dc15d87c158044bffc8c6306301.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/f4/f5719f51b9e5124de41114982fc4bc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
-    </list>
+    <list default="true" id="651660b1-10d6-45c4-b33d-bf5f370ef9d8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -70,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/karma.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-827">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="253">
+              <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -91,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -245,7 +219,7 @@
       <workItem from="1548458324905" duration="6608000" />
       <workItem from="1548649468771" duration="553000" />
       <workItem from="1548700162402" duration="16651000" />
-      <workItem from="1548788580337" duration="5551000" />
+      <workItem from="1548788580337" duration="5869000" />
     </task>
     <task id="LOCAL-00001" summary="npm i vue">
       <created>1548391286808</created>
@@ -303,11 +277,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548742266603</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="接入 travis.ci">
+      <created>1548809580854</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1548809580854</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58105000" />
+    <option name="totallyTimeSpent" value="58423000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -357,7 +338,8 @@
     <MESSAGE value="三个按钮（前进 + 更多 + 后退）合并在一起" />
     <MESSAGE value="用 mounted 钩子做判断是不是 button 标签" />
     <MESSAGE value="提交四个测试，第五个(mock)还在完善" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交四个测试，第五个(mock)还在完善" />
+    <MESSAGE value="接入 travis.ci" />
+    <option name="LAST_COMMIT_MESSAGE" value="接入 travis.ci" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -413,13 +395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/karma.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-827">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -447,7 +422,14 @@
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
         </state>
       </provider>
     </entry>
