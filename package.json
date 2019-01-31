@@ -29,20 +29,7 @@
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^2.5.1",
-<<<<<<< HEAD
-    "chai-spies": "^1.0.0",
-    "karma": "^4.0.0",
-    "karma-chai": "^0.1.0",
-    "karma-chai-spies": "^0.1.4",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-mocha": "^1.3.0",
-    "karma-sinon-chai": "^2.0.2",
-    "mocha": "^5.2.0",
-=======
->>>>>>> parent of 40b0f6e... 提交四个测试，第五个(mock)还在完善
     "parcel-bundler": "^1.11.0",
-    "sinon": "^7.2.3",
-    "sinon-chai": "^3.3.0",
     "vue-template-compiler": "^2.5.22"
   },
   "alias": {
