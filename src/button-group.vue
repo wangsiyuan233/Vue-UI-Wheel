@@ -7,7 +7,7 @@
 <script>
   export default {
     // 可以控制一下用户，不要让他们输入奇怪的标签，影响使用，只能用 button 标签
-    mount() {
+    mounted() {
       for(let node of this.$el.children){
         if (node.nodeName.toLocaleLowerCase() !== 'button'){
             console.warn('傻了吧，button-group 里面的标签必须是 button')
@@ -27,9 +27,7 @@
             border-radius: 0;
 
             /*重合部分合并*/
-            &:not(first-child){
-                margin-left: -1px;
-            }
+            margin-left: -1px;
             /* 要让按钮的四条边框都浮现出来*/
             &:hover{
                 position: relative;

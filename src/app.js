@@ -15,6 +15,7 @@ new Vue({
     data:{loading1:false}
 })
 
+<<<<<<< HEAD
 
 // 单元测试
 
@@ -127,3 +128,5 @@ try{
         console.error(error.message)
     })
 }
+=======
+>>>>>>> parent of 40b0f6e... 提交四个测试，第五个(mock)还在完善

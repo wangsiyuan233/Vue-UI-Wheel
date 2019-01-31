@@ -94,9 +94,7 @@ new Vue({
             border-radius: 0;
 
 		    /*重合部分合并*/
-            &:not(first-child){
-                margin-left: -1px;
-            }
+            margin-left: -1px;
 			/* 要让按钮的四条边框都浮现出来*/
             &:hover{
                 position: relative;
@@ -105,5 +103,3 @@ new Vue({
 }
 ```
 试了一下，这三个按钮之间没有缝隙是因为在 button-group 组件里面，干掉重合部分就是 ml=-1
-
-button-group 组件里面必须用 button 标签，可以用 mounted 钩子做一下判断。
