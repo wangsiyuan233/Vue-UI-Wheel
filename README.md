@@ -1,4 +1,4 @@
-# 需求
+# icon 需求
 **1、 制作 icon :设置 icon 在字体的左边或者右边**
 
 第一步：在 `index.html` 里面 将 `icon-position` 设置为 `right`，`<g-button icon="settings" icon-position="right">设置</g-button>`，剩下的脏活累活都要在 `button.vue` 里面做。
@@ -103,3 +103,7 @@ new Vue({
 }
 ```
 试了一下，这三个按钮之间没有缝隙是因为在 button-group 组件里面，干掉重合部分就是 ml=-1
+
+----------
+
+# input 需求
