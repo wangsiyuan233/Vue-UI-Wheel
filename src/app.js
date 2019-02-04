@@ -14,6 +14,7 @@ import Sider from './sider'
 import Content from './content'
 import Footer from './footer'
 
+
 Vue.component('g-button',Button)
 Vue.component('g-icon',Icon)
 Vue.component('g-button-group',ButtonGroup)
@@ -25,6 +26,7 @@ Vue.component('g-header', Header)
 Vue.component('g-content', Content)
 Vue.component('g-footer', Footer)
 Vue.component('g-sider', Sider)
+
 
 
 new Vue({
