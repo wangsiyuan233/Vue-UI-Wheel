@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>轱辘</title>
-    <style>
+    <style lang="scss">
         img {max-width: 100%;}
 
         .box{
@@ -34,9 +34,6 @@
             margin: 20px;
         }
 
-        body {
-            font-size: var(--font-size);
-        }
     </style>
     <style>
         .icon {
@@ -50,8 +47,7 @@
 
     <div style="border: 1px solid black;">
 
-        <g-col span="2"
-               :phone="{span:24}"
+        <g-col span="24"
                :ipad="{span:8}"
                :narrow-pc="{span:4}"
                :pc="{span:2}"
@@ -59,8 +55,7 @@
         >
             1
         </g-col>
-        <g-col span="22"
-               :phone="{span:24}"
+        <g-col span="24"
                :ipad="{span:16}"
                :narrow-pc="{span:20}"
                :pc="{span:22}"

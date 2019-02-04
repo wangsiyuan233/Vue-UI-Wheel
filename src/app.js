@@ -1,7 +1,7 @@
 
 // 整个应用程序的入口就是 app.js
 
-import Vue from 'vue'
+import Vue from 'vue/dist/vue.js'
 import Button from './button'
 import Icon from './icon'
 import ButtonGroup from './button-group'
@@ -23,7 +23,6 @@ new Vue({
     data:{loading1:false},
     methods:{
         inputChange(){
-
         }
     }
 })
