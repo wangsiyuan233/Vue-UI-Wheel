@@ -1,5 +1,5 @@
 <template>
-    <div class="tabs-item" @click="xxx" :class="classes">
+    <div class="tabs-item" @click="onClick" :class="classes">
         <slot></slot>
     </div>
 </template>
@@ -26,7 +26,8 @@
     computed: {
       classes () {
         return {
-          active: this.active
+          active: this.active,
+          disabled: this.disabled
         }
       }
     },
@@ -37,7 +38,8 @@
     },
     methods: {
       // click 事件的 xxx
-      xxx () {
+      onClick () {
+        if (this.disabled) { return }
         this.eventBus.$emit('update:selected', this.name, this)
       }
     }
@@ -46,6 +48,7 @@
 <style lang="scss" scoped>
     .tabs-item {
         $blue: blue;
+        $disabled-text-color: grey;
         flex-shrink: 0;
         padding: 0 1em;
         cursor: pointer;
@@ -55,6 +58,9 @@
         &.active {
             color: $blue;
             font-weight: bold;
+        }
+        &.disabled {
+            color: $disabled-text-color;
         }
     }
 </style>
