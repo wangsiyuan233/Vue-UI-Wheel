@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8cb3c4b-b328-42e9-a0e4-b447fa4b71f7" name="Default Changelist" comment="">
+    <list default="true" id="b8cb3c4b-b328-42e9-a0e4-b447fa4b71f7" name="Default Changelist" comment="增大tab item可点击区域">
       <change beforePath="$PROJECT_DIR$/src/tabs-head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-head.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabs-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-item.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -58,20 +59,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tabs-head.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="409">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tabs-item.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="669">
+              <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -124,11 +125,11 @@
         <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/tabs-body.vue" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/src/tabs-item.vue" />
         <option value="$PROJECT_DIR$/src/aaa.html" />
         <option value="$PROJECT_DIR$/src/tabs-pane.vue" />
         <option value="$PROJECT_DIR$/src/tabs.vue" />
         <option value="$PROJECT_DIR$/src/tabs-head.vue" />
+        <option value="$PROJECT_DIR$/src/tabs-item.vue" />
       </list>
     </option>
   </component>
@@ -202,7 +203,7 @@
       <workItem from="1549127196372" duration="4667000" />
       <workItem from="1549242574957" duration="4836000" />
       <workItem from="1549297653805" duration="5993000" />
-      <workItem from="1549380703467" duration="12713000" />
+      <workItem from="1549380703467" duration="12960000" />
     </task>
     <task id="LOCAL-00001" summary="开始input组件">
       <created>1548985862609</created>
@@ -379,11 +380,25 @@
       <option name="project" value="LOCAL" />
       <updated>1549404907220</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="删掉测试代码">
+      <created>1549404945096</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1549404945096</updated>
+    </task>
+    <task id="LOCAL-00027" summary="增大tab item可点击区域">
+      <created>1549405021198</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1549405021198</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52438000" />
+    <option name="totallyTimeSpent" value="52685000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,8 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="开始input组件" />
-    <MESSAGE value="添加input.vue及其样式" />
     <MESSAGE value="添加 input 的测试用例" />
     <MESSAGE value="让 input 支持双向绑定" />
     <MESSAGE value="col 和 row 的雏形完成" />
@@ -508,7 +521,9 @@
     <MESSAGE value="完成 toast 测试用例" />
     <MESSAGE value="添加 tabs 相关组件，添加基本 props" />
     <MESSAGE value="tabs 可以切换了" />
-    <option name="LAST_COMMIT_MESSAGE" value="tabs 可以切换了" />
+    <MESSAGE value="删掉测试代码" />
+    <MESSAGE value="增大tab item可点击区域" />
+    <option name="LAST_COMMIT_MESSAGE" value="增大tab item可点击区域" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -703,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tabs-item.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tabs-pane.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -733,8 +741,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tabs-head.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="409">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tabs-item.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
         </state>
       </provider>
     </entry>

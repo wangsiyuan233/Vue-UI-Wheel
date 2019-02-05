@@ -12,9 +12,11 @@
     name: 'TabsHead',
     // 儿子辈的 eventBus
     inject: ['eventBus'],
-    created () {
+    mounted  () {
       this.eventBus.$on('update:selected', (item, vm) => {
-        console.log(item)
+        let {width, height, top, left} = vm.$el.getBoundingClientRect()
+        this.$refs.line.style.width = `${width}px`
+        this.$refs.line.style.left = `${left}px`
       })
     }
   }
@@ -26,13 +28,12 @@
         display: flex;
         height: $tab-height;
         justify-content: flex-start;
-        border: 1px solid red;
         position: relative;
         > .line {
             position: absolute;
             bottom: 0;
             border-bottom: 1px solid $blue;
-            width: 100px;
+            transition: all 350ms;
         }
         > .actions-wrapper {
             margin-left: auto;
