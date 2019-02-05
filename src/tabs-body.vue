@@ -5,7 +5,11 @@
 </template>
 <script>
   export default {
-    name: 'TabsBody'
+    name: 'TabsBody',
+    // 儿子辈的 eventBus
+    inject: ['eventBus'],
+    created(){
+    }
   }
 </script>
 <style>
