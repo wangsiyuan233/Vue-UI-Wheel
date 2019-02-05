@@ -31,15 +31,20 @@ Vue.component('g-sider', Sider)
 Vue.component('g-toast', Toast)
 // 用户自己要求使用 plugin 插件
 Vue.use(plugin)
-
+import createElement from 'vue'
+const h = createElement
 
 
 new Vue({
     el:'#app',
     data:{loading1:false},
+    created(){
+        this.$toast('文字', {
+            enableHtml: false
+        })
+    },
     methods:{
         showToast(){
-            this.$toast('我是 message')
         }
     }
 })
