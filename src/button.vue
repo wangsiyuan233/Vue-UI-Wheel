@@ -6,8 +6,7 @@
         <!-- :name 是变量，是绑定JS的，是可以改变的； name 是字符串-->
         <g-icon :name="icon" class="icon" v-if="icon && !loading"></g-icon>
         <g-icon class="loading icon" name="loading" v-if="loading"></g-icon>
-        <div class="content">
-            <!-- 神奇的地方：控制台里 “设置”两字 在 slot 的位置-->
+        <div class="g-button-content">            <!-- 神奇的地方：控制台里 “设置”两字 在 slot 的位置-->
             <slot></slot>
         </div>
     </button>
@@ -46,41 +45,32 @@
 </script>
 
 <style lang="scss" scoped>
-    .g-button {
-        font-size: var(--front-size);
-        height: var(--botton-height);
-        padding: 0 1em;
-        border-radius: var(--border-radius);
-        border: 1px solid var(--border-color);
-        background: var(--button-bg);
-
-        &:hover {
-            border-color: var(--border-color-hover);
-        }
-
-        &:active {
-            background-color: var(--button-active-bg);
-        }
-
-        &:focus {
-            outline: none;
-        }
-
-        /*内部*/
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        /*外部*/
+    $font-size: 14px;
+    $button-height: 32px;
+    $button-bg: white;
+    $button-active-bg: #eee;
+    $border-radius: 4px;
+    $color: #333;
+    $border-color: #999;
+    $border-color-hover: #666;
+    .g-button { font-size: $font-size; height: $button-height; padding: 0 1em;
+        border-radius: $border-radius; border: 1px solid $border-color;
+        background: $button-bg;
+        display: inline-flex; justify-content: center; align-items: center;
         vertical-align: middle;
+
+        &:hover { border-color: $border-color-hover; }
+        &:active { background-color: $button-active-bg; }
+        &:focus {outline: none;}
 
         /*默认的 icon 位置*/
         > .icon { order: 1; margin-right: 0.1em}
-        > .content {order: 2;}
+        > .g-button-content { order: 2; }
 
         /*出现 icon-right 时的 icon 位置*/
         &.icon-right {
+            > .g-button-content { order: 1; }
             > .icon {order: 2;margin-right: 0em;margin-left: 0.1em}
-            > .content{order:1;}
         }
     }
 
