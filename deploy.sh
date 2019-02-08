@@ -4,7 +4,7 @@
 set -e
 
 # 生成静态文件
-npm run docs:build
+npx vuepress build docs
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
@@ -20,6 +20,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:frankfang/frank-test-1.git master:gh-pages
+git push -f git@github.com:wangsiyuan233/Vue-UI-Wheel.git master:gh-pages
 
 cd -
