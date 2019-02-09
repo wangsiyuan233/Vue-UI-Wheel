@@ -11,6 +11,8 @@ describe('Button', () => {
     expect(Button).to.exist
   })
 
+
+  // 第一个测试
   it('可以设置icon.', () => {
     const Constructor = Vue.extend(Button)
     const vm = new Constructor({
@@ -23,6 +25,8 @@ describe('Button', () => {
     vm.$destroy()
   })
 
+
+  // 第二个测试
   it('可以设置loading.', () => {
     const Constructor = Vue.extend(Button)
     const vm = new Constructor({
@@ -37,6 +41,8 @@ describe('Button', () => {
     vm.$destroy()
   })
 
+
+  // 第三个测试
   it('icon 默认的 order 是 1', () => {
     const div = document.createElement('div')
     document.body.appendChild(div)
@@ -52,6 +58,9 @@ describe('Button', () => {
     vm.$destroy()
   })
 
+
+
+  // 第四个测试
   it('设置 iconPosition 可以改变 order', () => {
     const div = document.createElement('div')
     document.body.appendChild(div)
@@ -67,6 +76,9 @@ describe('Button', () => {
     vm.$el.remove()
     vm.$destroy()
   })
+
+
+  // 第五个测试
   it('点击 button 触发 click 事件', () => {
     const Constructor = Vue.extend(Button)
     const vm = new Constructor({

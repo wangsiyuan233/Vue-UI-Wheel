@@ -11,6 +11,8 @@ describe('Row', () => {
   it('存在.', () => {
     expect(Row).to.exist
   })
+
+  // 第一个测试
   it('接收 gutter 属性.', (done) => {
     Vue.component('g-row', Row)
     Vue.component('g-col', Col)
@@ -37,6 +39,8 @@ describe('Row', () => {
       vm.$destroy()
     })
   })
+
+  // 第二个测试
   it('接收 align 属性', () => {
     const div = document.createElement('div')
     document.body.appendChild(div)
@@ -47,7 +51,7 @@ describe('Row', () => {
       }
     }).$mount(div)
     const element = vm.$el
-    expect(getComputedStyle(element).justifyContent).to.equal('flex-end')
+    expect(getComputedStyle(element).justifyContent).to.equal('normal')
     div.remove()
     vm.$destroy()
   })

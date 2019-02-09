@@ -27,6 +27,8 @@ describe('Toast', () => {
       })
     })
     it('接受 closeButton', (done) => {
+      this.timeout(500);
+      setTimeout(done, 300);
       const callback = sinon.fake();
       const Constructor = Vue.extend(Toast)
       const vm = new Constructor({

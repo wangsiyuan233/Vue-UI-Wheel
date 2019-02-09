@@ -7,9 +7,13 @@ Vue.config.devtools = false
 
 describe('Col', () => {
 
+  initContains = this.contains
+
   it('存在.', () => {
     expect(Col).to.exist
   })
+
+  // 第一个测试
   it('接收 span 属性', () => {
     const div = document.createElement('div')
     document.body.appendChild(div)
@@ -24,6 +28,8 @@ describe('Col', () => {
     div.remove()
     vm.$destroy()
   })
+
+  // 第二个测试
   it('接收 offset 属性', () => {
     const div = document.createElement('div')
     document.body.appendChild(div)
@@ -38,6 +44,8 @@ describe('Col', () => {
     div.remove()
     vm.$destroy()
   })
+
+  // 第三个测试
   it('接收 pc 属性', () => {
     const div = document.createElement('div')
     document.body.appendChild(div)
@@ -53,6 +61,8 @@ describe('Col', () => {
     div.remove()
     vm.$destroy()
   })
+
+  // 第四个测试
   it('接收 ipad 属性', () => {
     const div = document.createElement('div')
     document.body.appendChild(div)
@@ -68,6 +78,8 @@ describe('Col', () => {
     div.remove()
     vm.$destroy()
   })
+
+  // 第五个测试
   it('接收 narrow-pc 属性', () => {
     const div = document.createElement('div')
     document.body.appendChild(div)
@@ -83,6 +95,8 @@ describe('Col', () => {
     div.remove()
     vm.$destroy()
   })
+
+  // 第六个测试
   it('接收 wide-pc 属性', () => {
     const div = document.createElement('div')
     document.body.appendChild(div)
@@ -93,8 +107,8 @@ describe('Col', () => {
       }
     }).$mount(div)
     const element = vm.$el
-    expect(vm.$el.classList.contains('col-wide-pc-1')).to.eq(true)
-    expect(vm.$el.classList.contains('offset-wide-pc-2')).to.eq(true)
+    expect(vm.$el.classList.include('col-wide-pc-1')).to.eq(true)
+    expect(vm.$el.classList.include('offset-wide-pc-2')).to.eq(true)
     div.remove()
     vm.$destroy()
   })

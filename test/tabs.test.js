@@ -21,8 +21,9 @@ describe('Tabs', () => {
     expect(Tabs).to.exist
   })
 
-  it('接受 selected 属性', (done) => {
-
+  it('接受 selected 属性', function(done) {
+    this.timeout(500);
+    setTimeout(done, 300);
     const div = document.createElement('div')
     document.body.appendChild(div)
     div.innerHTML = `

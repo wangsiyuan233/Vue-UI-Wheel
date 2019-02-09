@@ -11,7 +11,7 @@ describe('Input', () => {
     expect(Input).to.exist
   })
 
-  // 第一组 describe
+
   describe('props', () => {
     const Constructor = Vue.extend(Input)
     let vm
@@ -28,7 +28,6 @@ describe('Input', () => {
       expect(inputElement.value).to.equal('1234')
     })
 
-    // 第一个
     it('接收 disabled', () => {
       vm = new Constructor({
         propsData: {
@@ -38,8 +37,6 @@ describe('Input', () => {
       const inputElement = vm.$el.querySelector('input')
       expect(inputElement.disabled).to.equal(true)
     })
-
-    // 第二个
     it('接收 readonly', () => {
       vm = new Constructor({
         propsData: {
@@ -50,7 +47,6 @@ describe('Input', () => {
       expect(inputElement.readOnly).to.equal(true)
     })
 
-    // 第三个
     it('接收 error', () => {
       vm = new Constructor({
         propsData: {
@@ -63,28 +59,29 @@ describe('Input', () => {
       expect(errorMessage.innerText).to.equal('你错了')
     })
   })
-
-  // 第二组 describe
   describe('事件', () => {
     const Constructor = Vue.extend(Input)
     let vm
     afterEach(() => {
       vm.$destroy()
     })
-
-    // 第四个
     it('支持 change/input/focus/blur 事件', () => {
       ['change', 'input', 'focus', 'blur']
-        .forEach((eventName) => {
-          vm = new Constructor({}).$mount()
-          const callback = sinon.fake();
-          vm.$on(eventName, callback)
-          //触发input的change 事件
-          let event = new Event(eventName);
-          let inputElement = vm.$el.querySelector('input')
-          inputElement.dispatchEvent(event)
-          expect(callback).to.have.been.calledWith(event)
-        })
+          .forEach((eventName) => {
+            vm = new Constructor({}).$mount()
+            const callback = sinon.fake();
+            vm.$on(eventName, callback)
+            //触发input的change 事件
+            let event = new Event(eventName);
+            Object.defineProperty(
+                event, 'target', {
+                  value: {value: 'hi'}, enumerable: true
+                }
+            )
+            let inputElement = vm.$el.querySelector('input')
+            inputElement.dispatchEvent(event)
+            expect(callback).to.have.been.calledWith('hi')
+          })
     })
   })
 })
