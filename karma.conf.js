@@ -1,3 +1,6 @@
+
+
+
 module.exports = function (config) {
   config.set({
 
@@ -49,12 +52,34 @@ module.exports = function (config) {
 
 
     // enable / disable watching file and executing tests whenever any file changes
-    autoWatch: true,
+    autoWatch: false,
 
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['ChromeHeadless'],
+    browsers: ["Chrome-headless"],
+    customLaunchers: {
+      "Chrome-headless": {
+        base: 'Chrome',
+        flags: [
+            '--headless',
+            '--remote-debugging-port=9876',
+            '--no-sandbox',
+            '--disable-web-security',
+            '--disable-gpu',
+        ]
+      }
+    },
+
+
+
+    captureTimeout: 60000, // it was already there
+    browserDisconnectTimeout : 10000,
+    browserDisconnectTolerance : 1,
+    browserNoActivityTimeout : 60000,//by default 10000
+    // Headless
+
+
 
 
     // Continuous Integration mode
@@ -63,6 +88,10 @@ module.exports = function (config) {
 
     // Concurrency level
     // how many browser should be started simultaneous
-    concurrency: Infinity
+    concurrency: Infinity,
+
+    failOnEmptyTestSuite: false,
+
+
   })
 }

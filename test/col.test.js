@@ -7,8 +7,6 @@ Vue.config.devtools = false
 
 describe('Col', () => {
 
-  initContains = this.contains
-
   it('存在.', () => {
     expect(Col).to.exist
   })
@@ -90,8 +88,8 @@ describe('Col', () => {
       }
     }).$mount(div)
     const element = vm.$el
-    expect(vm.$el.classList.contains('col-narrow-pc-1')).to.eq(true)
-    expect(vm.$el.classList.contains('offset-narrow-pc-2')).to.eq(true)
+    expect(vm.$el.classList.includes('col-narrow-pc-1')).to.eq(true)
+    expect(vm.$el.classList.includes('offset-narrow-pc-2')).to.eq(true)
     div.remove()
     vm.$destroy()
   })
